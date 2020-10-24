@@ -7,7 +7,7 @@
 |氏名|園田 大輔|
 |住所|東京都 目黒区<br>最寄り駅: 東急目黒線 武蔵小山駅|
 |E-mail|mail@daisukesonoda.com|
-|blog|https://dsonoda.hatenablog.com|
+|blog|https://dsonoda.hatenablog.com<br />https://zenn.dev/dsonoda|
 
 ## 概要
 - Webアプリケーションのサーバサイド、APIの豊富な開発経験があります。
