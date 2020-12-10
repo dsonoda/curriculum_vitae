@@ -100,7 +100,7 @@
   - 某大手企業ゲーム機のバックエンド機能の開発。
 - **プロジェクトの規模**
   - 世界的な規模で展開。
-  - 開発者 日本: 約1000名、 USA: 約２００名
+  - 開発者 日本: 約1000名、 USA: 約200名
 - **プロジェクトで利用された技術**
   - Python3 / AWS(ECS / ECR / Batch / Athena / S3 / Lambda / DynamoDB / EC2 / SNS / SQS / Kinesis / CloudWatch, その他)
 - **担当業務**
