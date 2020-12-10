@@ -104,7 +104,7 @@
 - **プロジェクトで利用された技術**
   - Python3 / AWS(ECS / ECR / Batch / Athena / S3 / Lambda / DynamoDB / EC2 / SNS / SQS / Kinesis / CloudWatch, その他)
 - **担当業務**
-  - 実装、検証
+  - 実装、検証、デプロイ
 
 ### 機械学習実行Webプラットフォーム(SaaS)の開発 (2018/06〜2020/09)
 - **プロジェクト概要**
