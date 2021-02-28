@@ -22,19 +22,20 @@
 - 機械学習を用いたWebアプリケーションにおける周辺機能の実装。 
 
 ## 興味のある技術
+- DevOps全般
+  - コンテナ基盤の活用
+  - CI/CDパイプライン構築(CircleCI、GitHub Actions、AWS CodePipeline等)
+  - インフラのコード化(Terraform、AWS CloudFormation等)
+- DDD & クリーンアーキテクチャー
+
+## スキル
+
+### クラウド
 
 |key|value|
 |:---|:---|
-|機械学習システムの<br>DevOps/MLOps全般|機械学習をシステムに組み込むニーズは高く、供給は追いついていないため、是非とも身につけたい。|
-|DDD & クリーンアーキテクチャー|コードの設計フェーズが以降の開発に与える多大な影響を考慮すると、是非とも身につけたい。<br>軽量DDDについて説明できるくらいには習熟している。|
-|AWS/GCP|機能要件を満たす各種マネージド・サービスの選定・構築。習熟度を上げている最中。|
-|コンテナ基盤の活用|コンテナオーケストレーションツールのデファクトスタンダードとしてKubernetesに注目している。|
-|インフラ構成のコード化|Terraform。属人性を排除したワークフローの効率化や不慮の事故をなくすため習熟度を上げている最中。|
-|CI/CDパイプラインの<br>構築|CircleCI、GitHub Actions。属人性を排除したワークフローの効率化や不慮の事故をなくすため習熟度を上げている最中。|
-|GraphQL|APIの実装インターフェースの選定にて、RESTの他に選択肢を増やしておきたい。|
-|Vue.js|個人プロダクト開発のfrontend実装として。あまり学習コストをかけたくないため、今の所ベストの選定であると思っている。|
-
-## スキル
+|AWS|設計全般<br />EC2 / S3 / ELB / Auto Scaling / CloudFront / CloudWatch / IAM / Organizations / API Gateway / Lambda / Cognito / DynamoDB / RDS / SES / SNS / SQS / SSM / Athena|
+|GCP|BigQuery|
 
 ### 言語
 
@@ -54,14 +55,6 @@
 |jQuery|7年。外注のデザインテンプレートを利用したfrontendの開発経験。|
 |CakePHP|3年。PHP開発時代にメイン使用。|
 |Zend Framework|7年。PHP開発時代にメイン使用。|
-
-### クラウド
-- 主にSDK経由(boto3/google-cloud-bigquery)で使用。
-
-|key|value|
-|:---|:---|
-|AWS|AWS Organizations / API Gateway / Cloud Front / Cloud Watch / Cognito / DynamoDB / EC2 / IAM / Lambda / RDS(PostgreSQL) / S3 / SES / SNS / SQS / SSM|
-|GCP|BigQuery|
 
 ### データストア
 - 現在はフレームワークやマネージドサービスでラップするため直接SQLを叩くような開発はしていないが、基本的なSQLは操作可能。
