@@ -91,7 +91,7 @@
 - **プロジェクト概要**
   - 社内サーバレスシステムのリプレイス（設計・開発・運用フローの整備）。
 - **プロジェクトの規模**
-  - PL 1名、開発者2名
+  - PO 2名、PL 1名、開発者2名
 - **プロジェクトで利用された技術**
   - Python3 / AWS　(API Gateway / Lambda / ECS / Fargate / ECR / CloudFormation / CodeCommit / CodePipeline / CodeBuild / CodeDeploy / CloudWatch / X-Ray / SNS / Route53 / CloudFront / S3 / EC2 / Cloud9, その他) / GCP　(IAM / Storage, その他API)
 - **担当業務**
