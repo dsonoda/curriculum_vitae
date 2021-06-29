@@ -34,8 +34,8 @@
 
 |key|value|
 |:---|:---|
-|AWS|設計全般<br />EC2 / S3 / ELB / Auto Scaling / CloudFront / CloudWatch / IAM / Organizations / API Gateway / Lambda / Cognito / DynamoDB / RDS / SES / SNS / SQS / SSM / Athena|
-|GCP|BigQuery|
+|AWS|設計全般<br />EC2 / S3 / ELB / Auto Scaling / CloudFront / CloudWatch / X-Ray / IAM / Organizations / API Gateway / Lambda / Cognito / DynamoDB / RDS / SES / SNS / SQS / SSM / Athena / ECS / Fargate / ECR / CodeCommit / CodePipeline / CodeBuild / CodeDeploy / CloudFormation / Lookout for Metrics / Fault Injection Simulator|
+|GCP|BigQuery / Storage / IAM / その他API|
 
 ### 言語
 
@@ -87,7 +87,25 @@
 
 ## 主な業務経歴
 
-### 家庭用据え置きゲーム機のバックエンド機能の開発 (2020/11〜2021/3予定)
+### サーバレスシステムのリプレイス (2021/4〜現在)
+- **プロジェクト概要**
+  - 社内サーバレスシステムのリプレイス（設計・開発・運用フローの整備）。
+- **プロジェクトの規模**
+  - PL 1名、開発者2名
+- **プロジェクトで利用された技術**
+  - Python3 / AWS　(API Gateway / Lambda / ECS / Fargate / ECR / CloudFormation / CodeCommit / CodePipeline / CodeBuild / CodeDeploy / CloudWatch / X-Ray / SNS / Route53 / CloudFront / S3 / EC2 / Cloud9, その他) / GCP　(IAM / Storage, その他API)
+- **担当業務**
+  - 既存のサーバレスシステムのリプレイス。
+    - 問題点の洗い出し
+    - SPAサイトのCI/CDパイプライン構築
+    - サーバレスシステムの機能の再設計・開発・運用フローの整備
+  - 技術指導
+    - クライアントの開発チームへのコードレベルの技術指導
+- **主な成果**
+  - クライアントの要望に加え、既存システムの再設計と開発、運用フローの再整備を提案、実施。
+  - 当初予定されていた半分のスケジュールで納品。
+
+### 家庭用据え置きゲーム機のバックエンド機能の開発 (2020/11〜2021/3)
 - **プロジェクト概要**
   - 家庭用据え置きゲーム機のバックエンド機能の開発・パフォーマンス測定・動作検証。
 - **プロジェクトの規模**
@@ -97,13 +115,13 @@
   - Python3 / AWS　(ECS / ECR / Batch / Athena / S3 / Lambda / DynamoDB / EC2 / SNS / SQS / ALB / Auto Scaling / CloudWatch, その他) / Datadog / GitHub / その他社内独自のCI/CDツール
 - **担当業務**
   - オンライン対戦時のチームプレイセッション管理機能の機能修正、パフォーマンス測定、動作検証。
-    - APIのバリデーション処理の修正・検証
-    - DBアクセス時のパフォーマンス調査と改善修正、検証
-    - 処理キューの送受信時のパフォーマンス調査と改善修正、検証
-    - デモ実機を使用しての動作検証
+    - APIのバリデーション処理の修正・検証。
+    - DBアクセス時のパフォーマンス調査と改善修正、検証。
+    - 処理キューの送受信時のパフォーマンス調査と改善修正、検証。
+    - デモ実機を使用しての動作検証。
   - ユーザの行動履歴情報をもとに画面出力するサジェスチョン・トロフィー情報抑制のための調査・修正・動作検証。
-    - APIの処理の修正・検証
-    - DBキャッシュの時刻関連処理修正・動作検証
+    - APIの処理の修正・検証。
+    - DBキャッシュの時刻関連処理修正・動作検証。
 
 ### 機械学習実行Webプラットフォーム(SaaS)の開発 (2018/06〜2020/09)
 - **プロジェクト概要**
