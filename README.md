@@ -7,7 +7,7 @@
 |氏名|園田 大輔|
 |住所|東京都 目黒区<br>最寄り駅: 東急目黒線 武蔵小山駅|
 |E-mail|mail@daisukesonoda.com|
-|blog|https://dsonoda.hatenablog.com<br />https://zenn.dev/dsonoda|
+|blog|[Qiita](https://qiita.com/dsonoda)<br>[Zenn](https://zenn.dev/dsonoda)|
 |資格| 2021年2月 AWS認定 Solutions Architect Associate 取得<br /> 2021年2月 AWS認定 Cloud Practitioner 取得|
 
 ## 概要
