@@ -94,7 +94,9 @@
 - **プロジェクトの規模**
   - PO 2名、PL 1名、開発者2名
 - **プロジェクトで利用された技術**
-  - Python3 / AWS　(API Gateway / Lambda / ECS / Fargate / ECR / CloudFormation / CodeCommit / CodePipeline / CodeBuild / CodeDeploy / CloudWatch / X-Ray / SNS / Route53 / CloudFront / S3 / EC2 / Cloud9, その他) / GCP　(IAM / Storage, その他API)
+  - アプリケーション: Python3 / Docker / AWS　(Lambda / Cloud9) / GCP　(翻訳API)
+  - インフラ: AWS　(API Gateway / ECS / Fargate / ECR / CodeCommit / CodePipeline / CodeBuild / CodeDeploy / CloudWatch / X-Ray / SNS / Route53 / CloudFront / S3 / EC2, その他) / GCP　(IAM / Storage)
+  - 構成管理: AWS SAM / CloudFormation
 - **担当業務**
   - 既存のサーバレスシステムのリプレイス
     - 問題点の洗い出し。
