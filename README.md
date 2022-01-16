@@ -65,7 +65,7 @@ Raspberry Pi | Arduino
 PO: 1名、ステークホルダー: 多数、PM: 3名、装置開発: 顧客側のエンジニア50名、バックエンド開発: 5名
 
 - プロジェクトで利用した技術、ツール  
-AWS (IoT Core, IoT Greengrass, IoT Events, IoT Device ManagementAmazon, CloudWatch, S3, Glue, Timestream, Grafana, Lambda, SNS, CodeCommit, CodePipeline, CloudFormation, ECR) | Git | Docker | Python | Jira | Backlog
+AWS (IoT Core / IoT Greengrass / IoT Events / IoT Device Management / CloudWatch / S3 / Glue / Timestream / Grafana / Lambda / SNS / CodeCommit /  CodePipeline / CloudFormation / ECR) | Git | Docker | Python | Jira | Backlog
 
 - 担当業務
   - クラウドサービスの選択  
