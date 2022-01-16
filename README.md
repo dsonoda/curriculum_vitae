@@ -97,7 +97,7 @@ AWS、Azure、GCPの中から顧客要件に合致するクラウドサービス
 PO: 2名、PM: 1名、開発: 1名
 
 - プロジェクトで利用した技術、ツール  
-AWS (IoT Core / IoT Greengrass / IoT Events / IoT Device Management / CloudWatch / S3 / Glue / Timestream / Grafana / Lambda / SNS / CodeCommit /  CodePipeline / CloudFormation / ECR) | Git | Docker | Python | Jira | Backlog
+AWS (IAM / CodeCommit / CodeBuild / CodeDeploy / CodePipeline / CloudFormation / Lambda / API Gateway / CloudWatch / ECR / Systems Manager / CloudFront / S3 / WAF) | GCP (IAM / Storage / Cloud Translation) | AWS SAM | Serverless Framework | Git | Docker | Python | Jira | Backlog
 
 - 担当業務
   - サーバレスAPI（AWS Lambda）の技術的負債の解消  
