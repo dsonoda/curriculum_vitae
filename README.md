@@ -110,6 +110,16 @@ PO: 2名、PM: 1名、開発: 1名
 - プロジェクトで利用した技術、ツール
 AWS (IAM / CodeCommit / CodeBuild / CodeDeploy / CodePipeline / CloudFormation / Lambda / API Gateway / CloudWatch / ECR / Systems Manager / CloudFront / S3 / WAF) | GCP (IAM / Storage / Cloud Translation) | AWS SAM | Serverless Framework | Git | Docker | Python | Jira | Backlog  
 
+- 発揮したバリュー
+  - 技術的負債の洗い出し
+  - 保守運用のためのルール整備
+  - 安定運用のためのパフォーマンス・チューニング
+  - クラウド設計
+  - コード開発とテスト
+  - CI/CDパイプラインの構築
+  - クラウドリソースのIaC化
+  - 社内技術者への技術教育
+
 - 担当業務
   - 技術的負債の解消  
 問題の原因調査と改善提案後、リプレイス開発を実施。  
@@ -158,6 +168,12 @@ PO: 1名、営業: 3名、CTO: 1名、開発: 5〜8名
 
 - プロジェクトで利用した技術、ツール
 AWS (API Gateway / Cost Explorer / CloudWatch / DynamoDB / Lambda / EC2 / ECS / ECR / IAM / Lambda / RDS(PostgreSQL) / S3 / SNS / Systems Manager) | GCP (BigQuery) | Git | GitHub | Docker | Python
+
+- 発揮したバリュー
+  - 顧客要望のヒアリングと要件定義
+  - 技術選定
+  - クラウド設計
+  - APIコード開発とテスト
 
 - 担当業務
   - プロトタイプの開発  
