@@ -6,14 +6,14 @@
 |:---|:---|
 |氏名|園田 大輔|
 |住所|東京都 目黒区<br>最寄り駅: 東急目黒線 武蔵小山駅|
-|E-mail|mail@daisukesonoda.com|
+|E-mail|[mail@daisukesonoda.com](<mailto:mail@daisukesonoda.com>)|
 |SNS|Twitter: [@d5onoda](https://twitter.com/d5onoda)<br>LinkedIn: [dsonoda](https://www.linkedin.com/in/dsonoda/)<br>Facebook: [Daisuke Sonoda](https://www.facebook.com/daisuke.sonoda.758)|
 |blog|[Qiita](https://qiita.com/dsonoda)<br>[Zenn](https://zenn.dev/dsonoda)|
 |著書|「[AWSエンジニア入門講座―学習ロードマップで体系的に学ぶ](https://www.amazon.co.jp/AWS%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E5%85%A5%E9%96%80%E8%AC%9B%E5%BA%A7%E2%80%95%E2%80%95%E5%AD%A6%E7%BF%92%E3%83%AD%E3%83%BC%E3%83%89%E3%83%9E%E3%83%83%E3%83%97%E3%81%A7%E4%BD%93%E7%B3%BB%E7%9A%84%E3%81%AB%E5%AD%A6%E3%81%B6-CloudTech%E3%83%AD%E3%83%BC%E3%83%89%E3%83%9E%E3%83%83%E3%83%97%E4%BD%9C%E6%88%90%E5%A7%94%E5%93%A1%E4%BC%9A/dp/4297125374/ref=sr_1_1_sspa?keywords=aws+%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2&qid=1642343661&sprefix=aws+enn%2Caps%2C170&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyWlNCMDdNT0laRlROJmVuY3J5cHRlZElkPUEwNTM1NTQ1NVVVNlVPTFhPNlQ1JmVuY3J5cHRlZEFkSWQ9QTNMTVBJM1hCVUVXOTMmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl)」共著<br>AWS入門者向け書籍を有志メンバーで共同執筆。担当はCloudFrontとCloudWatchの章。|
 |資格| 2021年2月 AWS認定 Solutions Architect Associate 取得<br /> 2021年2月 AWS認定 Cloud Practitioner 取得|
 
 ## 概要
-- 現在はAWSのクラウドアーキテクチャ設計、クラウドインフラ構成管理、DevOpsをメイン業務としています。
+- 現在はAWSのクラウドアーキテクチャ設計、クラウドインフラ構成管理、MLOps、DevOpsをメイン業務としています。
 - IoT、機械学習、WebアプリのバックエンドAPI開発、などの広い範囲の開発実績があります。
 - 小〜中規模プロジェクトの新規開発フェーズで最もパフォーマンスを発揮します。
 - 大企業での開発内製化、及び社員の技術教育の実績があります。
@@ -25,7 +25,7 @@
 
 ### クラウド
 #### AWS
-EC2 | VPC | IAM | Organizations | Cognito | Route53 | Certificate Manager | CloudFront | WAF | ELB | Auto Scaling | IoT Core | IoT Greengrass | IoT Events | IoT Device Management | CodeCommit | CodeBuild | CodeDeploy | CodePipeline | CloudFormation | API Gateway | Lambda | CloudWatch | X-Ray | DynamoDB | RDS(Aurora, PostgreSQL) | Timestream | Redshift | S3 | Athena | Glue | Managed Grafana | SES | SNS | SQS | Systems Manager | ECR | ECS | Fargate | Batch
+VPC | EC2 | IAM | Lambda | Batch | ECR | ECS | Fargate | S3 | EFS | RDS | Timestream | DynamoDB | CloudFront | Route 53 | API Gateway | CodeCommit | CodeArtifact | CodeBuild | CodeDeploy | CodePipeline | Cloud9 | CloudShell | X-Ray | Organizations | CloudWatch | Auto Scaling | CloudFormation | Config | Systems Manager | Trusted Advisor | Control Tower | Well-Architected Tool | Health Dashboard | Grafana | CloudTrail | SageMaker | Lookout for Metrics | Athena | Redshift | EMR | Kinesis | QuickSight | Glue | Cognito | Secrets Manager | GuardDuty | Inspector | IAM Identity Center(AWS SSO) | ACM | WAF & Shield | Security Hub | Detective | Cost Explorer | Step Functions | EventBridge | SNS | SQS | SES | WorkSpaces | IoT Core | IoT Device Management | IoT Events | IoT Greengrass | IoT SiteWise
 
 #### GCP
 BigQuery | Storage | IAM | Cloud Translation
@@ -40,7 +40,7 @@ Django | Django REST framework | Flask | CakePHP | Zend Framework | jQuery
 PostgreSQL | MySQL | SQL Server
 
 ### その他ツール
-Docker | AWS SAM | Serverless Framework | nginx | gunicorn | Apache | RabbitMQ | LDAP | GitHub | GitLab | CircleCI | DataDog | Jira | Backlog
+Docker | AWS SAM | Serverless Framework | Terraform | AWS CDK | nginx | gunicorn | Apache | RabbitMQ | LDAP | GitHub | GitLab | CircleCI | DataDog | Jira | Backlog
 
 ### ハードウェア
 Raspberry Pi | Arduino
@@ -58,15 +58,14 @@ Raspberry Pi | Arduino
 - 学習で必要な特徴量と訓練データカラムの紐付け。
 
 ## 主な業務経歴
-
-### 産業用加工装置のIoT化、及び遠隔監視アプリケーションの開発（2021年10月〜現在）
-- プロジェクト概要
+### 産業用加工装置のIoT化、及び遠隔監視アプリケーションの開発（2021年10月〜2022年3月）
+- プロジェクト概要  
 インシデント発生時における対応スピード改善と経費削減のため、運用している産業用加工装置の遠隔監視システムを開発した。また、開発内製化のため社内技術者へクラウド技術教育を実施した。  
 
-- プロジェクトの規模
+- プロジェクトの規模  
 PO: 1名、ステークホルダー: 多数、PM: 3名、装置開発: 顧客側のエンジニア50名、バックエンド開発: 5名  
 
-- プロジェクトで利用した技術、ツール
+- プロジェクトで利用した技術、ツール  
 AWS (IoT Core / IoT Greengrass / IoT Events / IoT Device Management / CloudWatch / S3 / Glue / Timestream / Grafana / Lambda / SNS / CodeCommit /  CodePipeline / CloudFormation / ECR) | Git | Docker | Python | Jira | Backlog  
 
 - 発揮したバリュー
@@ -100,11 +99,11 @@ AWSリソースをCloudFormationでテンプレート化。デバイスの追加
 具体的な教育内容はスクリプトの命名規約やモジュール設計の方針、エラーハンドリングやテスト手法、インフラコードのスタック分割、CI/CDパイプラインの構築方法といった基本的な開発手法であり、必要となった時に開発チームへレクチャーを実施した。また、コードレビューをすべて引き受けることにより、レクチャーした内容を継続的に再教育できる体制を整えた。これにより、進捗の悪いタスクをスプリント完了前にフォローすることが可能となったため、次スプリントへの持ち越しタスク数を半分以下へ減らすことに成功した。  
 
 ### サーバレス翻訳アプリケーションのリプレイス開発・及び保守運用フローの整備（2021年4月〜2021年9月）
-- プロジェクト概要
+- プロジェクト概要  
 業務用のサーバレス翻訳アプリケーションの技術的負債を洗い出し、全面的にリプレイス開発を実施した。  
 このアプリは実用だけでなく社内技術者のクラウド技術教育を兼ねて開発されたものだが、技術的知見の不足によるエラーが多発している状態であった。原因追求も困難な状態だっため社内業務に支障がでており、早急な技術的負債の解消と安定運用手法の整備が求められていた。  
 
-- プロジェクトの規模
+- プロジェクトの規模  
 PO: 2名、PM: 1名、開発: 1名  
 
 - プロジェクトで利用した技術、ツール
@@ -160,13 +159,13 @@ APIの処理の修正・検証。
 DBキャッシュの時刻関連処理修正・動作検証。  
 
 ### 機械学習実行Webアプリケーションの開発（2018年6月〜2020年9月）
-- プロジェクト概要
+- プロジェクト概要  
 教師あり機械学習によるデータ分析・予測を実行するためのWebアプリケーションを開発した。  
 
 - プロジェクトの規模
 PO: 1名、営業: 3名、CTO: 1名、開発: 5〜8名  
 
-- プロジェクトで利用した技術、ツール
+- プロジェクトで利用した技術、ツール  
 AWS (API Gateway / Cost Explorer / CloudWatch / DynamoDB / Lambda / EC2 / ECS / ECR / IAM / Lambda / RDS(PostgreSQL) / S3 / SNS / Systems Manager) | GCP (BigQuery) | Git | GitHub | Docker | Python
 
 - 発揮したバリュー
