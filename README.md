@@ -25,7 +25,7 @@
 
 ### クラウド
 #### AWS
-VPC | EC2 | IAM | Lambda | Batch | ECR | ECS | Fargate | S3 | EFS | RDS | Timestream | DynamoDB | CloudFront | Route 53 | API Gateway | CodeCommit | CodeArtifact | CodeBuild | CodeDeploy | CodePipeline | Cloud9 | CloudShell | X-Ray | Organizations | CloudWatch | Auto Scaling | CloudFormation | Config | Systems Manager | Trusted Advisor | Control Tower | Well-Architected Tool | Health Dashboard | Grafana | CloudTrail | SageMaker | Lookout for Metrics | Athena | Redshift | EMR | Kinesis | QuickSight | Glue | Cognito | Secrets Manager | GuardDuty | Inspector | IAM Identity Center(AWS SSO) | ACM | WAF & Shield | Security Hub | Detective | Cost Explorer | Step Functions | EventBridge | SNS | SQS | SES | WorkSpaces | IoT Core | IoT Device Management | IoT Events | IoT Greengrass | IoT SiteWise
+VPC | EC2 | IAM | Lambda | Batch | ECR | ECS | Fargate | S3 | EFS | RDS | Timestream | DynamoDB | CloudFront | Route 53 | API Gateway | CodeCommit | CodeArtifact | CodeBuild | CodeDeploy | CodePipeline | Cloud9 | CloudShell | X-Ray | Organizations | CloudWatch | Auto Scaling | ELB | CloudFormation | Config | Systems Manager | Trusted Advisor | Well-Architected Tool | Health Dashboard | Grafana | CloudTrail | SageMaker | Lookout for Metrics | Athena | Redshift | EMR | Kinesis | QuickSight | Glue | Cognito | Secrets Manager | IAM Identity Center(AWS SSO) | ACM | WAF & Shield | Cost Explorer | Step Functions | EventBridge | SNS | SQS | SES | WorkSpaces | IoT Core | IoT Device Management | IoT Events | IoT Greengrass | IoT SiteWise
 
 #### GCP
 BigQuery | Storage | IAM | Cloud Translation
@@ -58,6 +58,42 @@ Raspberry Pi | Arduino
 - 学習で必要な特徴量と訓練データカラムの紐付け。
 
 ## 主な業務経歴
+### クラウドセキュリティ改善の実施計画立案（2022年4月〜現在）
+- プロジェクト概要  
+AWS利用用途の多様化と知見を持たないユーザーによるシステム構築の増加に伴い、顧客のシステムでは膨大な数のセキュリティアラームが発生していた。  
+インシデント発生予防と監視運用体制の確立が急務となったため、開発メンバーとして調査とKPIの設定、及びセキュリティ改善計画の作成と提案を実施した。  
+
+- プロジェクトの規模  
+計画承認者:情報セキュリティ部門、PO: 3名、開発: 3名、運用: 数100名、アドバイザー: AWS技術サポート数名  
+
+- プロジェクトで利用した技術、ツール  
+AWS (Well-Architected Framework / Trusted Advisor / Organizations(OU, SCP) / IAM / EC2(EBS, Security Group, ELB, Snapshot) / S3 / RDS(Snapshot) / CloudFront / Route 53 / Auto Scaling / Lambda / CloudWatch)  
+
+- 発揮したバリュー
+  - 顧客へのヒアリング  
+  - 問題の整理、目標設定と提案  
+  - 実施計画の作成  
+  - 技術選定  
+  - アラーム集計処理の実装  
+
+- 担当業務
+  - 現状把握と課題の洗い出し  
+現状の組織体制とシステム運用方法を顧客にヒアリングを実施。また、Trusted Advisor組織ビュー情報を集計し、アカウント別のセキュリティアラーム項目を把握した。
+これにより、100以上存在するアカウント上でのシステム開発ほぼ全てをベンダーへ外注していること、各アカウント管理者の技術力には期待できないこと、古いリソースの利用によるアラーム発生がある程度の割合で存在していること、特定のセキュリティアラームが一部のアカウントに集中していることがわかった。
+
+  - 基本方針の決定  
+対応すべき実施策の洗い出しと優先順位付けを実施。
+具体的に施策を実施するユーザーの技術力には期待できないことから、AWS Control Towerのような、既存アカウントへの影響範囲と運用が複雑すぎる予防的統制のセキュリティサービスは実施策から外した。そして、ベンダーへの修正依頼手順書をもとに、監視チームと連携して継続した修正運用体制を作り、地道にセキュリティのベースアップをしていくことを提案、採択。
+
+  - 戦略立案1  
+AWSにはWell-Architectedセキュリティ要領に対応したベストプラクティスが存在するため、それに準拠することでゼロからガイドラインを作らずにセキュリティを高めることが可能である。ベストプラクティスは数が多いため「全アカウントへの適用可能性」「既存システムへの影響範囲の低さ」「現状体制での運用可能性」という選択軸を設け、ベストプラクティスの取り捨て選択を実施することを提案。しかしながら、ベストプラクティスの数の多さ、選択軸に該当しないベストプラクティスが存在すること、それによる選択軸そのものの選択の困難化、KPI達成期間内の現実的な実施可能性がチーム内で考慮された結果、この戦略案は不採用となった。
+
+  - 戦略立案2  
+戦略立案1での反省をもとに、セキュリティの専門家が選定した基本的なベストプラクティスを提案するAWS公式ツールのTrusted Advisorの使用を提案。チーム内で検討した結果、限られた数のセキュリティ項目であれば選択軸を設定して優先順位をつけることが可能となることがわかり、これを採択。
+
+  - 戦術立案  
+Trusted Advisorの各セキュリティ項目ごとに具体的な実施計画を立ててKPIを設定。また、各施策の優先順位付けに客観的な説得力を持たせるため、CVSS(共通脆弱性評価システム)のスコア値を採択。これをもとに、セキュリティ施策の実行計画（マイルストーン）を立てた。
+
 ### 産業用加工装置のIoT化、及び遠隔監視アプリケーションの開発（2021年10月〜2022年3月）
 - プロジェクト概要  
 インシデント発生時における対応スピード改善と経費削減のため、運用している産業用加工装置の遠隔監視システムを開発した。また、開発内製化のため社内技術者へクラウド技術教育を実施した。  
