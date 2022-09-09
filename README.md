@@ -173,7 +173,7 @@ AWSリソースをCloudFormationでテンプレート化。デバイスの追加
 - プロジェクトの規模  
 PO: 2名、PM: 1名、開発: 1名  
 
-- プロジェクトで利用した技術、ツール
+- プロジェクトで利用した技術、ツール  
 AWS (IAM / CodeCommit / CodeBuild / CodeDeploy / CodePipeline / CloudFormation / Lambda / API Gateway / CloudWatch / ECR / Systems Manager / CloudFront / S3 / WAF) | GCP (IAM / Storage / Cloud Translation) | AWS SAM | Serverless Framework | Git | Docker | Python | Jira | Backlog  
 
 - 発揮したバリュー
